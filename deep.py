@@ -18,7 +18,7 @@ import seaborn as sns
 
 
 
-df = pd.read_csv(('C:\\Users\\user\\br\\diabetes.csv'))
+df = pd.read_csv(('C:\\Users\\user\\Downloads\\diabetes.csv'))
 print(df.isnull().values.any())
 print((df.Pregnancies == 0).sum(),(df.Glucose==0).sum(),(df.BloodPressure==0).sum(),(df.SkinThickness==0).sum(),(df.Insulin==0).sum(),(df.BMI==0).sum(),(df.DiabetesPedigreeFunction==0).sum(),(df.Age==0).sum())
 print(df.describe())
